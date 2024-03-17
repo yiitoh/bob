@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #000000;
+            color: rgb(255, 0, 0);
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        #products {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            grid-gap: 20px;
+        }
+
+        .product {
+            border: 1px solid #000000;
+            border-radius: 5px;
+            padding: 10px;
+        }
+
+        .product img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .product h2 {
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+
+        .product p {
+            margin: 5px 0;
+        }
+
+        .product button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #000000;
+            color: rgb(81, 255, 0);
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .product button:hover {
+            background-color: #000000;
+        }
+
+        footer {
+            background-color: #333;
+            color: rgb(255, 0, 0);
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Gaming Shop</h1>
+    </header>
+    <main>
+        <section id="products">
+            <div class="product">
+                <img src="C:\Users\mugz1\Downloads\Minecraft-creeper-face.jpg" alt="Minecraft">
+                <h2>Minecraft</h2>
+                <p>a game made up of blocks, creatures, and community</p>
+                <p>US$39.99  </p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="C:\Users\mugz1\Downloads\download.jpg" alt="Product 2">
+                <h2>GTA IV</h2>
+                <p>an action-adventure game played from either a third-person or first-person perspective</p>
+                <p>US$39.99 </p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="C:\Users\mugz1\Downloads\download (1).jpg" alt="Product 3">
+                <h2>Epic Games</h2>
+                <p>The company provides games such as battle breakers, fall guys, fortnite, infinity blade, robo recall, rocket league, shadow complex and unreal tournament, among others.</p>
+                <p>US$00.00 </p>
+                <button>Add to Cart</button>
+            </div>
+            <!-- Add more products as needed -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Gaming Shop. All rights reserved.</p>
+    </footer>
+</body>
+</html>
